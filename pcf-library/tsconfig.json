@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2017",
+      "outDir": "build",
+      "strict": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "typeRoots": ["node_modules/@types"],
+      "sourceMap": true
+  },
+  "include": ["src"]
+}
