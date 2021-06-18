@@ -32,3 +32,8 @@ Send us the finished code, zipped up with everything you used (do not include no
   - A console application that retrieves data as specced above from the recipepuppy API
   - Suitable tests that demonstrate your application
   - Relevant error handling
+
+## Time Management
+
+You shouldn't spend more than 2-3 hours on this exercise. If you aren't finished during that time, please commit the 
+latest version of your work, along with a short note explaining how far you got and what your next steps would be.

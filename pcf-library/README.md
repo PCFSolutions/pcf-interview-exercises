@@ -38,3 +38,8 @@ tests that aren't route-specific.
   - A Book model exists according to the spec
   - The db is seeded with a User, Location & Book
   - All code is properly formatted & linted
+
+## Time Management
+
+You shouldn't spend more than 3-4 hours on this exercise. If you aren't finished during that time, please commit the 
+latest version of your work, along with a short note explaining how far you got and what your next steps would be.
