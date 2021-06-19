@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-import logger from '../../../lib/logger';
 import create from './create';
 
 export default async (req: Request, res: Response): Promise<Response> => {
@@ -14,7 +13,6 @@ export default async (req: Request, res: Response): Promise<Response> => {
 
     return res.status(200).json({ success: true, result });
   } catch (error) {
-    logger.error(error.message, null, error.name);
     return res.status(200).json({ success: false, message: error.message });
   }
 };

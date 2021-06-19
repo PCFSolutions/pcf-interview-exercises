@@ -2,15 +2,15 @@
   "name": "pcf-library",
   "version": "1.0.0",
   "description": "",
-  "main": "build/server.js",
+  "main": "server.ts",
   "scripts": {
     "prebuild": "eslint . --ext .ts,.tsx",
     "build": "tsc",
-    "start": "node .",
+    "start": "node --loader ts-node/esm src/server.ts",
     "test": "mocha --sort --timeout 30000"
   },
   "keywords": [],
-  "author": "",
+  "author": "Darie-Dragos Mitoiu",
   "license": "ISC",
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",

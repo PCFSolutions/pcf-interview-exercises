@@ -1,3 +1,4 @@
-# PCF Interview Exercises
+# PCF Interview Exercises - Darie-Dragos Mitoiu
 
-This repo contains exercises to be used for interviews for developer positions.
+This repo contains solutions to exercises which are
+to be used for interviews for developer positions.

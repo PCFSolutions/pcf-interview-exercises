@@ -1,0 +1,6 @@
+# IDE
+.idea
+
+# Node Modules
+pcf-library/node_modules
+pcf-recipe/node_modules
